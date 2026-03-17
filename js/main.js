@@ -55,7 +55,7 @@ function updateAnimalDisplay() {
     document.querySelector("#animals").innerHTML = animals.toString();
 }
 
-document.querySelector("#reset").addEventListener("onclick", (e) => {
+document.querySelector("#reset").addEventListener("click", (e) => {
     document.querySelector(".cat img").style.opacity = 0;
     document.querySelector("#cathide").style.opacity = 0;
     document.querySelector("#catreveal").classList.remove("clicked");
