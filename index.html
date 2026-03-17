@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSI 3150 In-Class Assignment 2</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Interactive Reveal What’s that Animal UI</h1>
+        <h2>Click on the buttons below to reveal the animal images</h2>
+    </header>
+
+    <div class="container">
+        <main id="results">
+            <section id="grid">
+                <div class="box cat">
+                    <img src="cat.jpg" alt="Cat">
+                    <button type="button" id="cathide">Hide Result</button>
+                    <button type="button" id="catreveal">Reveal a CAT</button>
+                </div>
+                <div class="box dog">
+                    <img src="dog.jpg" alt="Dog">
+                    <button type="button" id="doghide">Hide Result</button>
+                    <button type="button" id="dogreveal">Reveal a DOG</button>
+                </div>
+                <div class="box cow">
+                    <img src="cow.jpg" alt="Cow">
+                    <button type="button" id="cowhide">Hide Result</button>
+                    <button type="button" id="cowreveal">Reveal a COW</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <button type="button" id="reset">Reset Zoo</button>
+        <span class="counter">
+            <p>Animals on screen: </p>
+            <p id="animals">0</p>
+        </span>
+    </footer>
+</body>
+</html>
+
